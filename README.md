@@ -60,3 +60,34 @@ CoinManager is a distributed microservices application built with Java Spring Bo
     - Cross-Platform technology
     - Light and Dark theme across the application
     - Real-time analytics
+
+---
+
+## Microservices API Endpoints
+
+1. AuthService
+    - `POST: /auth/v1/login` - User authentication
+    - `POST: /auth/v1/register` - New user registeration
+    - `POST: /auth/v1/refresh` - Refresh token mechanism
+    - `POST: /auth/v1/logout` - Session termination
+    - `GET: /auth/v1/ping` - Health check and token validation
+
+2. UserService
+    - `GET: /user/v1/profile` - Get user profile
+    - `PUT: /user/v1/profile` - Update user profile
+    - `GET: /user/v1/analytics` - Get spending analytics
+    - `GET: /user/v1/budget` - Get budget information
+    - `POST: /user/v1/budget/set` - Set budget
+
+3. ExpenseService
+    - `POST: /expense/v1/add` - Add new transaction
+    - `GET: /expense/v1/list` - Get all transactions
+    - `PUT: /expense/v1/update/{id}` - Update transaction
+    - `DELETE: /expense/v1/delete/{id}` - Delete transaction
+    - `GET: /expense/v1/categories` - Get transaction categories
+
+4. MessageService
+    - `POST: /v1/ds/parse` - Parse SMS 
+    - `GET: /v1/ds/health` - Service health check
+    - `POST: /v1/ds/categorize` - Categorize transaction
+    - `GET: /v1/ds/stats` - Get processing statistics
