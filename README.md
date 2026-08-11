@@ -1,4 +1,4 @@
-<img src="https://github.com/Deptl/CoinManager/images/coinmanager-github-banner.png" />
+<img src="https://github.com/Deptl/CoinManager/blob/master/images/coinmanager-github-banner.png" />
 
 # CoinManager - Distributed Microservices Architecture Documentation
 
