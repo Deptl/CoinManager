@@ -1,3 +1,5 @@
+<img src="https://github.com/Deptl/CoinManager/images/coinmanager-github-banner.png" />
+
 # CoinManager - Distributed Microservices Architecture Documentation
 
 ## Table of Contents
