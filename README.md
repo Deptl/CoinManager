@@ -7,14 +7,13 @@
 2. [Mobile Application](#mobile-application)
 3. [Project Repositories](#project-repositories)
 4. [Microservices API Endpoints](#microservices-api-endpoints)
-5. [Koig API Gateway & Custom Plugins](#kong-api-gateway--custom-plugins)
-6. [Docker Deployment](#docker-deployment)
-7. [Technical Specifications](#technical-specifications)
+5. [Technical Specifications](#technical-specifications)
 
 ---
 
 ## System Architecture
 
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/) [![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot) [![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)](https://kafka.apache.org/) [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/) [![Kong](https://img.shields.io/badge/Kong-ED1C24?style=for-the-badge&logo=kong&logoColor=white)](https://konghq.com/) [![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/) [![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)](https://gradle.org/) 
 ### Overview
 CoinManager is a distributed microservices application built with Java Spring Boot that helps you track your daily expenses. It offers unique features such as automatically parsing SMS messages from your bank to add expenses, and an OCR feature that scans receipt images to add expenses as well. The system uses a sophisticated architecture powered by LLMs for SMS parsing, OCR for extracting data from images, Kafka for decoupling services, Kong API Gateway for routing, and a React Native mobile application for the user interface.
 
