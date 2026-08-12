@@ -20,7 +20,7 @@ CoinManager is a distributed microservices application built with Java Spring Bo
 
 ### High Level Design
 
-
+<img src="https://github.com/Deptl/CoinManager/blob/master/images/system-design.png" />
 ---
 
 ## Mobile Application
